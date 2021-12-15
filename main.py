@@ -8,10 +8,15 @@ t = 1
 for i in text:
     while True:
         a = letters[random.randint(0,len(letters)-1)]
-        print(text[:t],a,sep='',end='\r')
+        if t == 1:
+            print(a,end='\r')
+        elif t == index:
+            break
+        else:
+            print(text[:t],a,sep='',end='\r')
         time.sleep(0.1)
         if a == i:
-            t += t
+            t += 1
             break
 
 print(text)
