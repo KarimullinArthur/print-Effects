@@ -1,13 +1,12 @@
 import random
 import time
-letters = ['h','e','l','o','w','r','d',' ']
 
-text = 'hello world'
+text = input()
 index = len(text)-1
 t = 1
 for i in text:
     while True:
-        a = letters[random.randint(0,len(letters)-1)]
+        a = chr(random.randint(65,122))
         if t == 1:
             print(a,end='\r')
         elif t == index:
