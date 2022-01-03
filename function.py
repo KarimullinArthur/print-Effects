@@ -23,4 +23,4 @@ def perebor(text,speed=0.05):
 # speed = input()
 # speed = float(speed)
 
-perebor("Hello world!",0.01)
+#perebor("Hello world!",0.01)
