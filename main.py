@@ -22,7 +22,7 @@ def perebor(text,speed=0.05,mode='standard'):
 
 text = input("Input text: ")
 
-speed = input("\nRecomend\nslow=0.025\nnorm=0.01\nfast=0.001\nInput speed(s): ")
+speed = input("\nRecomend\nslow=0.05\nnorm=0.01\nfast=0.001\nInput speed(s): ")
 speed = float(speed)
 
 perebor(text,speed,'save')
